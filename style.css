@@ -1,0 +1,92 @@
+
+body {
+  font-family: 'Josefin Slab',serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  flex:1;
+  margin: 0;
+}
+.img-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+    background-image: url(unsplash.jpg);
+    background-size: cover;
+}
+.image-info{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+    background-color: rgba(0, 0, 0, 0.472);
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+}
+#logo{
+    background-color: rgba(15, 13, 13, 0.31);
+    width: 100%;
+    margin-top: 200px;
+    /* position: relative;
+    bottom: 15vh;     */
+    height: 20vh;
+    
+}
+.form-area{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* align-items: center; */
+    justify-content: center;
+    width: 65%;
+    margin-bottom: 19px;
+}
+.header-area{
+    font-size: 18px;
+}
+.form-row{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 2px;
+}
+.input-area{
+    background-color:#E5E7EB ;
+}
+
+.input-box {
+        display: inline-block;
+        flex: 1;
+        font-size: clamp(1rem, 2vw, 18px)
+        
+}
+ input { 
+    padding: 1px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    color: #000000;
+} 
+input:invalid{
+    border-color:red;
+}
+label {
+    display: block;
+    margin: 8px 0;
+}
+button{
+    font-family: 'Josefin Slab',serif;
+    background-color: #596D48; font-weight: bold; border-radius: 4px; padding: 10px; font-size: 20px;
+}
+a:hover{
+    color: #596D48;
+}
+a:visited{
+    color: purple;
+}
